@@ -21,6 +21,6 @@ __help__ = """
 ❍ /userbotjoin - invite assistant to your chat
 ❍ /reload - Refresh admin list
 =>>   *Use*
-1) Add @HexzyBot in your group to admin with all permission
-2) Add Assistant I'd to your group @HexzyAssistant
+1) Add @Shizu_herobot in your group to admin with all permission
+2) Add Assistant I'd to your group @ShizuMusic_herobot
 """
