@@ -76,15 +76,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = f"""
-Hello, \n I'M Hexzy 
-ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ[️️ ️](https://telegra.ph/file/9f06565978a17c20794c7.jpg)ɢʀᴏᴜᴘꜱ! ʜɪᴛ /help
-Maintained by @ImPrabhasha ❤
+Hello, \n I'M Shizu💕 
+ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ[️️ ️](https://telegra.ph/file/90074b2e822898f312fd4.jpg)ɢʀᴏᴜᴘꜱ! ʜɪᴛ /help
+Maintained by @Mr_Rasiyaa ❤
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/HexzyBot?startgroup=true"),
+            text="➕️ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/Shizu_herobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="hexzy_"),
@@ -105,13 +105,13 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hi.. I'M` Hexzy    [️️ ️](https://telegra.ph/file/9f06565978a17c20794c7.jpg)
+`Hi.. I'M` Shizu💕 [️️ ️](https://telegra.ph/file/90074b2e822898f312fd4.jpg)
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`
-Powered by @HiTechRocket """
+Powered by @Mr_RG_YT """
 
 DONATE_STRING = """Hey, glad to hear you want to donate!
- You can support the project Of [𝙋𝙧𝙖𝙗𝙝𝙖𝙨𝙝𝙖 •••](t.me/Prabha_sha) \
- Supporting isnt always financial! [HiTech Rocket](t.me/HiTechRocket) \
+ You can support the project Of [Rasindu](t.me/Mr_Rasiyaa) \
+ Supporting isnt always financial! [Mr RG YT](t.me/Mr_RG_YT) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
@@ -357,7 +357,7 @@ def hexzy_about_callback(update, context):
     query = update.callback_query
     if query.data == "hexzy_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Hexzy*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Shizu*, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -365,10 +365,10 @@ def hexzy_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_Layla's licensed under the GNU General Public License v3.0_
-                 \n❍ Awesome Secret @HiTechRocket
-                 \n❍ Support Group @HiTechRockets
-                 \n❍ Assistant @HexzyAsistant.
-                 \nHere is the [💾Repository](https://github.com/Prabhasha-p/HexzyBot).
+                 \n❍ Awesome Secret @youtubesupportgroupforall
+                 \n❍ Support Group @Mr_RG_YT
+                 \n❍ Assistant @ShizuMusic_herobot.
+                 \nHere is the [💾Repository](https://github.com/rasindugimhan/HexzyBot).
                  \n\nIf you have any question about Hexzy, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
