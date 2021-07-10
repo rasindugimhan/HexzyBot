@@ -12,7 +12,7 @@
 ### Self-hosting  (Vps or Statics Desktop)
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/Prabhasha-p/HexzyBot
+$ git clone https://github.com/rasindugimhan/HexzyBot
 $ cd HexzyBot
 # Upgrade sources
 $ bash deploy.sh
