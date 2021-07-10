@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/HexzyBot
-RUN git clone -b shiken https://github.com/Prabhasha-p/HexzyBot /root/HexzyBot
+RUN git clone -b shiken https://github.com/rasindugimhan/HexzyBot /root/HexzyBot
 WORKDIR /root/HexzyBot
 
 #Copy config file to /root/HexzyBot/HexzyBot
